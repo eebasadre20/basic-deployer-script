@@ -3,10 +3,16 @@
 branch_name="develop"
 
 echo '................................'
-echo 'Step 1: Switch to root ... '
+echo 'Step 0: Switch to root ... '
 echo '................................'
 
 sudo su -
+
+echo '................................'
+echo 'Step 1: CD to the application folder ... '
+echo '................................'
+
+cd ~/Documents/Work/Novita/novitat/stackgecko.capps
 
 echo '................................'
 echo 'Step 2: Updating branch '${branch_name}' ... '
